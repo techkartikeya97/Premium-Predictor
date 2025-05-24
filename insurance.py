@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 
 nav = st.sidebar.radio("Navigation", ["About", "Predict"])
-df = pd.read_csv('/home/kartikeyas1997/projects/Insurance Predictor/insurance.csv')
+df = pd.read_csv('insurance.csv')
 
 if nav == "About":
     st.title("Health Insurance Premium Predictor")
